@@ -60,8 +60,8 @@ use EvoApi\EvoClient;
 use EvoApi\Message;
 use EvoApi\Instance;
 
-// Configurar cliente
-$client = new EvoClient('https://your-evolution-api.com/', 'YOUR_API_KEY');
+// Configurar cliente - Actualiza con tu URL y API Key
+$client = new EvoClient('https://whatsapp.ltd.do/', 'YOUR_API_KEY');
 
 // Crear y conectar instancia
 $instance = new Instance($client);
@@ -88,7 +88,8 @@ if ($response['success']) {
 ```php
 use EvoApi\EvoClient;
 
-$client = new EvoClient('https://your-evolution-api.com/', 'API_KEY');
+// Usar tu servidor Evolution API
+$client = new EvoClient('https://whatsapp.ltd.do/', 'API_KEY');
 $client->setInstance('nombre-instancia'); // Opcional: instancia por defecto
 ```
 

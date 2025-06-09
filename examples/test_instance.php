@@ -6,7 +6,7 @@ use EvoApi\Instance;
 use EvoApi\Utils\ResponseHandler;
 
 // Configuración
-$baseUri = 'https://your-evolution-api.com/';
+$baseUri = 'https://whatsapp.ltd.do/';
 $apiKey = 'YOUR_API_KEY_HERE';
 $instanceName = 'mi-instancia';
 

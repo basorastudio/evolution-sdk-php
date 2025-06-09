@@ -7,7 +7,7 @@ use EvoApi\Media;
 use EvoApi\Utils\ResponseHandler;
 
 // Configuración
-$baseUri = 'https://your-evolution-api.com/';
+$baseUri = 'https://whatsapp.ltd.do/';
 $apiKey = 'YOUR_API_KEY_HERE';
 $instanceName = 'mi-instancia';
 $phoneNumber = '5511999999999'; // Número con código de país
