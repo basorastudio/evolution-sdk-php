@@ -14,7 +14,7 @@ use EvoApi\Utils\ResponseHandler;
 // CONFIGURACIÓN - Actualiza estos valores
 $config = [
     'base_url' => 'https://whatsapp.ltd.do/',
-    'api_key' => '015359bd95a15617dba9a1434834a4ce', // ✅ API KEY REAL CONFIGURADA
+    'api_key' => '', // ✅ API KEY REAL CONFIGURADA
     'manager_url' => 'https://whatsapp.ltd.do/manager',
     'instance_name' => 'sdk-test-' . date('Ymd-His'),
     'test_number' => '18297934075' // Número para pruebas (formato internacional)
