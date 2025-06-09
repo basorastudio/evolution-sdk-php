@@ -5,7 +5,7 @@
 **🌐 Servidor Evolution API**
 - **URL Base**: `https://whatsapp.ltd.do/`
 - **Manager**: `https://whatsapp.ltd.do/manager`
-- **API Key**: `015359bd95a15617dba9a1434834a4ce`
+- **API Key**: ``
 
 ## ⚡ Test Rápido
 
