@@ -7,8 +7,8 @@ use EvoApi\Utils\ResponseHandler;
 
 // Configuración
 $baseUri = 'https://whatsapp.ltd.do/';
-$apiKey = 'YOUR_API_KEY_HERE';
-$instanceName = 'mi-instancia';
+$apiKey = '015359bd95a15617dba9a1434834a4ce'; // ✅ API KEY REAL CONFIGURADA
+$instanceName = 'test-instance-' . date('His');
 
 try {
     // Inicializar el cliente

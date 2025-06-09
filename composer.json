@@ -1,14 +1,33 @@
 {
-  "name": "evolution/sdk-php",
-  "description": "SDK PHP para consumir Evolution API v2",
+  "name": "basorastudio/evolution-sdk-php",
+  "description": "SDK PHP completo para Evolution API v2 - Integración fácil y eficiente",
   "type": "library",
   "license": "MIT",
+  "keywords": [
+    "evolution-api",
+    "whatsapp",
+    "sdk",
+    "php",
+    "api-client"
+  ],
+  "homepage": "https://github.com/basorastudio/evolution-sdk-php",
+  "authors": [
+    {
+      "name": "Basora Studio",
+      "email": "contact@basorastudio.com",
+      "homepage": "https://basorastudio.com"
+    }
+  ],
   "require": {
-    "php": ">=8.0",
-    "guzzlehttp/guzzle": "^7.0"
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*",
+    "ext-curl": "*"
   },
   "require-dev": {
-    "phpunit/phpunit": "^9.0"
+    "phpunit/phpunit": "^9.0|^10.0",
+    "phpstan/phpstan": "^1.0",
+    "squizlabs/php_codesniffer": "^3.0"
   },
   "autoload": {
     "psr-4": {
@@ -22,6 +41,18 @@
   },
   "scripts": {
     "test": "phpunit",
-    "test-coverage": "phpunit --coverage-html coverage"
-  }
+    "test-coverage": "phpunit --coverage-html coverage",
+    "stan": "phpstan analyse src tests --level=7",
+    "cs-check": "phpcs src tests --standard=PSR12",
+    "cs-fix": "phpcbf src tests --standard=PSR12"
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "7.4"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }

@@ -14,8 +14,9 @@ use EvoApi\Utils\ResponseHandler;
 // CONFIGURACIÓN - Actualiza estos valores
 $config = [
     'base_url' => 'https://whatsapp.ltd.do/',
-    'api_key' => 'YOUR_API_KEY_HERE', // ⚠️ REEMPLAZA CON TU API KEY
-    'instance_name' => 'test-' . date('Ymd-His'),
+    'api_key' => '015359bd95a15617dba9a1434834a4ce', // ✅ API KEY REAL CONFIGURADA
+    'manager_url' => 'https://whatsapp.ltd.do/manager',
+    'instance_name' => 'sdk-test-' . date('Ymd-His'),
     'test_number' => '18297934075' // Número para pruebas (formato internacional)
 ];
 
@@ -71,7 +72,7 @@ try {
     
     // 3. Verificar estado
     echo "\n3️⃣ Verificando estado de la instancia...\n";
-    $statusResponse = $instance->status($config['instance_name']);
+    $statusResponse = $instance->getConnectionState($config['instance_name']);
     if (ResponseHandler::isSuccess($statusResponse)) {
         $status = ResponseHandler::getData($statusResponse);
         echo "📊 Estado: {$status['state']}\n";

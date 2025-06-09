@@ -8,9 +8,9 @@ use EvoApi\Utils\ResponseHandler;
 
 // Configuración
 $baseUri = 'https://whatsapp.ltd.do/';
-$apiKey = 'YOUR_API_KEY_HERE';
-$instanceName = 'mi-instancia';
-$phoneNumber = '5511999999999'; // Número con código de país
+$apiKey = '015359bd95a15617dba9a1434834a4ce'; // ✅ API KEY REAL CONFIGURADA
+$instanceName = 'test-instance-' . date('His');
+$phoneNumber = '18297934075'; // Número con código de país
 
 try {
     // Inicializar el cliente

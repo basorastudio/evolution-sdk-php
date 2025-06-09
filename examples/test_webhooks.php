@@ -7,7 +7,7 @@ use EvoApi\Utils\ResponseHandler;
 
 // Configuración
 $baseUri = 'https://whatsapp.ltd.do/';
-$apiKey = 'YOUR_API_KEY_HERE';
+$apiKey = '015359bd95a15617dba9a1434834a4ce'; // ✅ API KEY REAL CONFIGURADA
 $instanceName = 'mi-instancia';
 $webhookUrl = 'https://your-webhook-endpoint.com/webhook';
 
