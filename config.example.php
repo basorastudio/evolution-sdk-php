@@ -8,7 +8,7 @@ return [
     // Configuración del servidor Evolution API
     'api' => [
         'base_url' => 'https://whatsapp.ltd.do/',
-        'api_key' => '015359bd95a15617dba9a1434834a4ce',
+        'api_key' => '',
         'manager_url' => 'https://whatsapp.ltd.do/manager',
         'timeout' => 30,
         'verify_ssl' => true,
